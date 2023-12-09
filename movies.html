@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Movies</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">CM</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="movies.html">Movies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tvshows.html">TV Shows</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="comment.html">Comment</a>
+          </li>
+        </ul>
+        <form class="d-flex align-items-center">
+          <div class="input-group">
+            <input class="form-control" type="search" placeholder="Film, Dizi, Sinema" aria-label="Search">
+            <div class="input-group-append">
+              <button class="btnn btn-custom" type="submit">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <div class="container mt-5">
+    <h5>Film Önerileri</h5>
+    <p> <a href="https://www.imdb.com/" target="_blank">IMDb</a> kullanıcıları tarafından derecelendirilen puanlar</p>
+    <p>(Liste her hafta yenilenecektir.)</p>
+  </div>
+
+  <div class="container my-5">
+    <table class="film-listesi">
+      <tr>
+        <td class="film">
+          <div class="film-info">
+            <img src="/Resimler/12angryman.jpg" alt="Film 1 Küçük Resim">
+            <div class="film-bilgisi">
+              <h2><a href="https://www.imdb.com/title/tt0050083/?ref_=nv_sr_srsg_0_tt_8_nm_0_q_12" target="_blank">12
+                  Angry Men</a></h2>
+              <p>1957 1s 36dk</p>
+              <p class="rrenk"> &#11088; 9.0</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="film">
+          <div class="film-info">
+            <img src="/Resimler/Schindler'sList.jpg" alt="Film 2 Küçük Resim">
+            <div class="film-bilgisi">
+              <h2><a href="https://www.imdb.com/title/tt0108052/?ref_=nv_sr_srsg_0_tt_5_nm_3_q_schind"
+                  target="_blank">Schindler's List</a></h2>
+              <p>1993 3s 15dk</p>
+              <p class="rrenk"> &#11088; 9.0</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="film">
+          <div class="film-info">
+            <img src="/Resimler/iyikötüçirkin.jpg" alt="Film 1 Küçük Resim">
+            <div class="film-bilgisi">
+              <h2><a href="https://www.imdb.com/title/tt0060196/?ref_=nv_sr_srsg_6_tt_7_nm_1_q_the%2520good%2520"
+                  target="_blank">The Good, the Bad and the Ugly</a></h2>
+              <p>1966 2s 58dk</p>
+              <p class="rrenk"> &#11088; 8.8</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="film">
+          <div class="film-info">
+            <img src="/Resimler/TheSilenceoftheLambs.jpg" alt="Film 1 Küçük Resim">
+            <div class="film-bilgisi">
+              <h2><a href="https://www.imdb.com/title/tt0102926/?ref_=nv_sr_srsg_3_tt_8_nm_0_q_the%2520sil"
+                  target="_blank">The Silence of the Lambs</a></h2>
+              <p>1991 1s 58dk</p>
+              <p class="rrenk"> &#11088; 8.6</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+      <tr>
+        <td class="film">
+          <div class="film-info">
+            <img src="/Resimler/TheShining.jpg" alt="Film 1 Küçük Resim">
+            <div class="film-bilgisi">
+              <h2><a href="https://www.imdb.com/title/tt0081505/?ref_=nv_sr_srsg_3_tt_8_nm_0_q_the%2520shi"
+                  target="_blank">The Shining</a></h2>
+              <p>1980 2s 26dk</p>
+              <p class="rrenk"> &#11088; 8.4</p>
+            </div>
+          </div>
+        </td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="container">
+    <p style="text-align: center;"><a href="https://www.imdb.com/chart/top/?ref_=nv_mv_250" target="_blank">Top 250
+        Movies</a></p>
+  </div>
+
+
+  <footer class="footer">
+    <div class="container text-center my-5">
+      <!-- Sosyal medya logoları -->
+      <div class="social-media">
+        <a href="https://www.instagram.com/cinemuon/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.tiktok.com/@cinemuon" target="_blank"><i class="fab fa-tiktok"></i></a>
+        <a href="https://www.youtube.com/@cinemuon" target="_blank"><i class="fab fa-youtube"></i></a>
+        <!-- Font Awesome ikonlarını kullanarak logoları buraya ekleyebilirsin -->
+      </div>
+
+      <!-- Diğer bağlantılar -->
+      <div class="other-links mt-4">
+        <h3>Diğer Bağlantılar</h3>
+        <ul>
+          <li><a href="#">Hakkımızda</a></li>
+          <li><a href="#">SSS</a></li>
+          <li><a href="#">Gizlilik Politikası</a></li>
+          <!-- Diğer bağlantıları buraya ekleyebilirsin -->
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

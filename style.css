@@ -1,0 +1,270 @@
+/* Özel sınıf ile butonun stili */
+.btn-custom {
+    background-color: cornflowerblue;
+    /* Arka plan rengi */
+    color: white;
+    /* Yazı rengi */
+    border-color: darkblue;
+    /* Kenarlık rengi */
+}
+
+.btn-custom i {
+    color: white;
+    /* İkonun rengi */
+}
+
+.btn-custom:hover {
+    background-color: lightgray;
+}
+
+body {
+    background-color: black;
+    color: white;
+    /* Yazı rengini beyaz yapmak için */
+}
+
+.card {
+    background-color: black;
+    color: white;
+    /* Yazı rengini beyaz yapmak için */
+}
+
+.film-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.film {
+    width: 300px;
+    margin-bottom: 20px;
+    /* Diğer stil özellikleri */
+}
+
+.film img {
+    width: 100%;
+    height: auto;
+    /* Diğer stil özellikleri */
+}
+
+.film-card {
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.film-card img {
+    width: 120px;
+    height: auto;
+    margin-right: 20px;
+    border-radius: 3px;
+}
+
+.film-info {
+    flex: 1;
+}
+
+.film-info h3 {
+    margin-top: 0;
+}
+
+.btn {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnn {
+    padding: 8px 16px;
+    border-radius: 4px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+}
+
+h5 {
+    text-shadow: 1px 1px 2px rgba(6, 5, 5, 0.862);
+}
+
+p {
+    text-shadow: 1px 1px 2px rgba(6, 5, 5, 0.862);
+}
+
+.navbar .navbar-collapse .input-group {
+    display: flex;
+    align-items: center;
+    margin-top: 8px;
+    /* İstediğiniz boşluk değerini belirleyebilirsiniz */
+}
+
+.navbar .navbar-collapse .input-group-append {
+    flex: 0 0 auto;
+
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.film-listesi {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+.film {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    text-align: left;
+}
+
+.film img {
+    max-width: 50px;
+    /* veya istediğin bir değer */
+    height: auto;
+    border-radius: 5px;
+    float: left;
+    /* Resmi solda hizalar */
+    margin-right: 15px;
+    /* Resim ile metin arasındaki boşluk */
+}
+
+.film-info {
+    overflow: hidden;
+    /* İçeriği temiz bir şekilde kapsayacak */
+}
+
+.film-bilgisi {
+    text-align: left;
+}
+
+.film-bilgisi h2 {
+    margin: 10px 0 5px 0;
+    font-size: 1.2em;
+}
+
+.film-bilgisi p {
+    margin: 0;
+}
+
+
+.footer {
+    background-color: #000000;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+
+.social-media a {
+    margin-right: 15px;
+    /* Logolar arası boşluk */
+    color: #777;
+}
+
+.other-links h3 {
+    color: #333;
+}
+
+.other-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.other-links ul li {
+    margin-bottom: 10px;
+}
+
+.other-links ul li a {
+    color: #777;
+    text-decoration: none;
+}
+
+.other-links ul li a:hover {
+    color: #333;
+}
+
+.rrenk {
+    color: #007bff;
+}
+
+
+.film-karti {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 20px;
+    overflow: auto;
+    /* float ile kayan öğeleri temizle */
+}
+
+.film-afisi {
+    max-width: 20%;
+    /* Resmin boyutunu istediğiniz oranda ayarlayın */
+    height: auto;
+    float: left;
+    /* Resmi sola yasla */
+    margin-right: 20px;
+}
+
+.film-bilgileri {
+    overflow: hidden;
+    /* float ile kayan öğeleri temizle */
+}
+
+/* Diğer stillendirmeler devam ediyor */
+
+.film-adı-küçük {
+    color: #007bff;
+}
+
+
+.card-title {
+    text-align: center;
+}
+
+.card-text {
+    text-align: center;
+}
+
+.col-md-6 {
+    background-color: #343a40;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+  }
+
+
+
+
+.movie-poster {
+    max-width: 120px;
+    height: auto;
+}
+
+.movie-details {
+    margin-left: 20px;
+}
+
+.movie-title {
+    font-weight: bold;
+}
+
+.movie-info {
+    margin-bottom: 5px;
+}
+
+.list-group-item {
+    background-color: black;
+    color: white;
+    border-color: white;}
